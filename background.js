@@ -32,6 +32,7 @@ chrome.webNavigation.onCommitted.addListener(function (tab) {
 });
 
 function runLinkedinScript() {
+    
     // Run script from file into webpage
     chrome.tabs.executeScript({
         file: 'linkedin.js'
